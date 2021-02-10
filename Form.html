@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+      <nav>
+        <strong>To the New</strong>
+        <li><a href="Home">Home</a> </li>
+        <li><a href="Quick Help">Quick Help</a></li>
+      </nav>
+    </div>
+    <hr>
+    <div class="form1">
+      <form>
+        <div class="form-heading">
+          <h1>Bug Report</h1>
+        </div>
+        <br>
+        <div class="formbody">
+          <label for="title">Title:*</label><br>
+          <input type="text" id="title" name="title" value=""><br>
+          <br>
+          <label for="desc">Description:*</label><br>
+          <input type="text" id="desc" name="desc" value=""><br>
+          <br>
+          <label for="oper">Operating system:*</label><br>
+          <select id="oper" name="oper">
+            <option value="Windows">Windows</option>
+            <option value="Mac">Mac</option>
+            <option value="Linux">Linux</option>
+          </select>
+          <br>
+          <br>
+          <label for="prod">Product:*</label><br>
+          <select id="prod" name="prod">
+            <option value="Mouse">Mouse</option>
+            <option value="Keyboard">Keyboard</option>
+            <option value="Speaker">Speaker</option>
+            </select>
+            <br>
+            <br>
+            <label for="ver">Version:*</label><br>
+            <input type="text" id="ver" name="ver" value=""><br>
+            <br>
+            <label for="lic">Licence:*</label><br>
+            <input type="radio" id="lic" name="lic" value="">
+            <label for="Free">Free</label>
+            <input type="radio" id="bus" name="bus" value="">
+            <label for="business">Business</label><br>
+            <br>
+            <label for="prod">Product:*</label><br>
+            <select id="prod" name="prod">
+              <option value="Mouse">Mouse</option>
+              <option value="Keyboard">Keyboard</option>
+              <option value="Speaker">Speaker</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="seve">Severity:*</label><br>
+            <select id="seve" name="seve">
+              <option value="Critical">Critical</option>
+              <option value="Medium">Medium</option>
+              <option value="Low">Low</option>
+            </select>
+            <br>
+            <br>
+            <label for="img">Attachment:</label><br>
+
+            <input type="file" id="img" name="img" accept="image/*">
+            <br>
+            <br>
+          </div>
+          <div class="form-footer">
+            <button type="submit" form="nameform" value="Submit">Send</button>
+          </div>
+        </form>
+      </div>
+</div>
+</body>
+</html>
